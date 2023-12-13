@@ -9,3 +9,7 @@ export function setCocktailsByLetter(state, cocktails) {
 export function setCocktailsByIngredient(state, cocktails) {
     state.cocktailsByIngredient = cocktails || []
 }
+
+export function setIngredient(state, ingredient) {
+    state.ingredient = ingredient
+}

@@ -1,5 +1,6 @@
 export default {
     searchedCocktails: [],
     cocktailsByLetter: [],
-    cocktailsByIngredient: []
+    cocktailsByIngredient: [],
+    ingredient: {}
 }
